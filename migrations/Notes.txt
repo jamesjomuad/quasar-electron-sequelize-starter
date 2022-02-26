@@ -1,0 +1,3 @@
+yarn sequelize-cli model:generate --name Product --attributes name:string,description:string,stock:integer,price:decimal,thumbnail:string,meta:string,expiration:date,tag:string
+
+yarn sequelize-cli db:migrate
